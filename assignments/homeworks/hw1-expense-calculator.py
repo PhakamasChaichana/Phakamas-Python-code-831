@@ -5,13 +5,13 @@ Date: [27/07/2025]
 Purpose: Calculate monthly budget and savings
 """
 
-monthly_income = float(input("กรุณาใส่รายได้ต่อเดือน (THB): "))
-rent_cost = float(input("กรุณาใส่ค่าเช่า (THB): "))
-food_budget = int(input("กรุณาใส่ค่ากิน (THB): "))
-transportation_cost = float(input("กรุณาใส่ค่าเดินทาง (THB): "))
-entertainment_budget = int(input("กรุณาใส่ค่าพักผ่อน (THB): "))
-emergency_fund_percent = float(input("กรุณาระบุเปอร์เซ็นต์เงินฉุกเฉิน (%): "))
-investment_percent = float(input("กรุณาระบุเปอร์เซ็นต์เงินลงทุน (%): "))
+monthly_income = float(input("Enter your monthly income (THB): "))
+rent_cost = float(input("Enter your rent cost (THB): "))
+food_budget = int(input("Enter your food budget (THB): "))
+transportation_cost = float(input("Enter your transportation cost (THB): "))
+entertainment_budget = int(input("Enter your entertainment budget (THB): "))
+emergency_fund_percent = float(input("Enter emergency fund percent (%): "))
+investment_percent = float(input("Enter investment percent (%): "))
 
 total_fixed_expenses = rent_cost + transportation_cost
 
