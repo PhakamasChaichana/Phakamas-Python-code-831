@@ -2,12 +2,12 @@
 empty_tuple = ()
 another_empty_tuple = tuple()
 
-# Tuple with values
+# Tuple with values #กำหนดค่าเริ่มต้น
 coordinates = (10, 20)
 rgb_color = (255, 128, 0)
 mixed_tuple = (1, "hello", 3.14, True)
 
-# Single element tuple (note the comma!)
+# Single element tuple (note the comma!) 
 single_tuple = (42,)  # Without comma, it's just parentheses around a value
 not_a_tuple = (42)    # This is just an integer
 
