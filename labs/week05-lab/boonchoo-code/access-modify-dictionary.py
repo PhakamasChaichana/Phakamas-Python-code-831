@@ -31,7 +31,7 @@ print(f"Items: {list(student.items())}")
 """ modify dictionary """
 
 
-# Creating a dictionary
+# Creating a dictionaryแก้ข้อมูล
 inventory = {
     "apples": 50,
     "bananas": 30,
@@ -40,7 +40,7 @@ inventory = {
 
 print(f"Original inventory: {inventory}")
 
-# Adding new items
+# Adding new itemsเพิ่มข้อมูล
 inventory["grapes"] = 40
 inventory["strawberries"] = 15
 print(f"After adding items: {inventory}")

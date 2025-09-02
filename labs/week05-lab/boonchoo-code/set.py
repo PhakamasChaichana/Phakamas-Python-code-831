@@ -13,7 +13,7 @@ print(f"Original list: {list_with_duplicates}")
 print(f"Set (unique): {unique_numbers}")
 
 # Set from string
-char_set = set("hello")
+char_set = set("hello") #setซ้ำไม่ได้
 print(f"Characters in 'hello': {char_set}")
 
 # Set comprehension

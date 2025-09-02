@@ -8,7 +8,7 @@
 print("=== PART 1: BASIC FUNCTIONS ===")
 
 # Example 1: Simple function without parameters
-def say_hello():
+def say_hello(): #แนวคิดเดียวกับภาษาซี 
     """A simple function that prints a greeting"""
     print("Hello, World!")
     print("Welcome to Python functions!")
